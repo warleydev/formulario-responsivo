@@ -13,7 +13,7 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
-   background: #0c0ce94d;
+   background: linear-gradient(90deg, #1d1402d7, #5f4709d7, #a08b58d7);
 }
 
 .container{
@@ -30,6 +30,7 @@ body{
    align-items: center;
    background-color: #fde3a7d7;
    padding: 1rem;
+   border-radius: 10px 0 0 10px;
 }
 
 .form-img img{
@@ -44,6 +45,7 @@ body{
    flex-direction: column;
    background-color: #fff;
    padding: 3rem 2rem;
+   border-radius: 0 10px 10px 0;
 }
 
 .form-header{
